@@ -20,10 +20,6 @@
   /* 2 */
 }
 
-:root {
-  background-color: #1c1c1c;
-}
-
 ::before,
 ::after {
   --tw-content: "";

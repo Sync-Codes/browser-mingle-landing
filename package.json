@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build:css": "npx tailwindcss -i src/css/index.css -o src/css/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}

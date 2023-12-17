@@ -28,6 +28,7 @@
         /* background-color: #1c1c1c; */
       }
     </style>
+    <script src="https://unpkg.com/floating.js"></script>
   </head>
 
   <body class="flex justify-center items-center">
@@ -46,10 +47,8 @@
             Navigate the web, together.
           </h1>
           <p class="text-base font-medium text-gray-400">
-            A chrome extension that matches you with people who are consuming
-            similar content and lets you dive into chatrooms while you surf,
-            connecting and chatting with people all over the world in real-time.
-            <!-- Give your browser a major social upgrade. -->
+            A chrome extension that connects you with people who are consuming
+            similar content. Connect, Chat and spam emojis :D
           </p>
 
           <div class="flex mt-8 justify-start font-normal">
@@ -162,3 +161,18 @@
     </footer> -->
   </body>
 </html>
+<script>
+  floating({
+    content:
+      '<img src="https://rvcsutokdfgfytaugjyw.supabase.co/storage/v1/object/public/eggs/icon.png">',
+    number: 1,
+    size: [4, 5],
+  });
+  floating({
+    content:
+      '<img src="https://rvcsutokdfgfytaugjyw.supabase.co/storage/v1/object/public/eggs/supabase.png">',
+    number: 1,
+    direction: "reverse",
+    size: [4, 5],
+  });
+</script>

@@ -28,6 +28,7 @@
         /* background-color: #1c1c1c; */
       }
     </style>
+    <script src="https://unpkg.com/floating.js"></script>
   </head>
 
   <body class="flex justify-center items-center">
@@ -160,3 +161,18 @@
     </footer> -->
   </body>
 </html>
+<script>
+  floating({
+    content:
+      '<img src="https://rvcsutokdfgfytaugjyw.supabase.co/storage/v1/object/public/eggs/icon.png">',
+    number: 1,
+    size: [4, 5],
+  });
+  floating({
+    content:
+      '<img src="https://rvcsutokdfgfytaugjyw.supabase.co/storage/v1/object/public/eggs/supabase.png">',
+    number: 1,
+    direction: "reverse",
+    size: [4, 5],
+  });
+</script>

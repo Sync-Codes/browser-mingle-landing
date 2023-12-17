@@ -20,6 +20,10 @@
   /* 2 */
 }
 
+:root {
+  background-color: #1c1c1c;
+}
+
 ::before,
 ::after {
   --tw-content: "";
@@ -63,7 +67,7 @@ body {
   margin: 0;
   /* 1 */
   line-height: inherit;
-  background-color: #1c1c1c;
+
   /* 2 */
 }
 
